@@ -1,0 +1,472 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: terminal-for-stripe-and-woocommerce\n"
+"POT-Creation-Date: 2022-03-29 23:30-0400\n"
+"PO-Revision-Date: 2020-09-25 12:53-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: ;__;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:68
+msgid "Unable to communicate with the API: CODE ATL3."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:92
+msgid ""
+"Sorry, we could not add that reader. Please try again. Remember to punch in "
+"the code on your reader and enter the string returned on the screen, into "
+"the dialogue box."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:94
+msgid "Unable to communicate with the API, please try again : CODE ATL."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:101
+msgid "Unable to communicate with the API : CODE DTL."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:125
+msgid "Unable to communicate with the API : CODE DTL2."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:215
+#: includes/admin/tfsw-stripe-terminal-ajax.php:302
+msgid "Tax"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:222
+#: includes/admin/tfsw-stripe-terminal-ajax.php:309
+msgid "Shipping"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:229
+#: includes/admin/tfsw-stripe-terminal-ajax.php:316
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:422
+#: includes/admin/tfsw-stripe-terminal-ajax.php:441
+msgid "The stripe terminal gateway is not enabled."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-ajax.php:456
+msgid "Invalid order"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:10
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:11
+msgid "Enable Stripe Terminal"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:17
+msgid "Completed Mobile Order Status"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:18
+msgid "Set Mobile Order Status to Processing"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:20
+msgid ""
+"When a mobile order is processed, instead of storing it as Completed we will "
+"store as Processing.  Web based orders are handled by the WooCommerce "
+"payment_complete method, which controls this decision.  To make that change "
+"for web-based orders, consult your WooCommerce settings."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:25
+msgid "Mobile App Button"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:26
+msgid "Display Mobile App Button"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:28
+msgid ""
+"When checking out, a button will display to allow you to open the order in "
+"our mobile app for mobile readers."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:33
+msgid "Stripe Account ID"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:35
+msgid ""
+"Your Stripe ID as seen in your Stripe.com Account.  This begins with \"acct_"
+"\", it is not your username."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:40
+msgid "Title"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:42
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:43
+msgid "Terminal"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:47
+msgid "Description"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:49
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:53
+msgid "Activate Terminal Payments"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:55
+msgid ""
+"Required: Connect your Stripe account to accept payments.  Stripe Account ID "
+"must be completed above as well."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:59
+msgid "Subscription & Customer Data Storage"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:61
+msgid ""
+"Support for subscriptions, virtual products, digital downloads, and customer "
+"data storage unavailable in this plugin.<br/>To enable use of customer "
+"accounts tied to order data as well as customer data sync between your site "
+"and Stripe.com, you must purchase pro services."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:66
+msgid "Fleet Management"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:68
+msgid ""
+"Manage your readers across locations to manage security and track which "
+"employee, reader, and location made each purchase within your Stripe.com "
+"dashboard."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:71
+msgid "Locations"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:73
+msgid ""
+"Use of multiple Stripe locations unavailable in this plugin. For locations "
+"management, please purchase pro services."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:78
+msgid "Web Readers"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:80
+msgid ""
+"To register a new reader, connect it to the internet and enter 0-7-1-3-9 "
+"into the keypad. Then click this button and enter the passphrase from your "
+"terminal. You will see a list of connected readers displayed here.  The free "
+"plugin only supports 1 reader.  To manage fleets, purchase pro services."
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:85
+msgid "Subscribe to Newsletter"
+msgstr ""
+
+#: includes/admin/tfsw-stripe-terminal-settings.php:86
+msgid "Get notified of feature updates and discounted add-ons in advance"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:67
+#: terminal-for-stripe-and-woocommerce.php:293
+msgid "Stripe Terminal"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:69
+#, php-format
+msgid ""
+"All other general Stripe settings can be adjusted <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:197
+msgid ""
+"Sorry, only 1 reader is allowed in this version.  Fleets require PRO "
+"Services."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:198
+msgid "Buy Pro Services"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:199
+msgid "Connect Stripe"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:200
+msgid "Add Reader"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:201
+msgid "Please enter the reader's registration code."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:202
+msgid ""
+"(Optional) Please enter a meaningful name/label for that reader, for future "
+"reference."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:203
+msgid "Unable to communicate with the API."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:204
+msgid ""
+"Could not refresh session. Please verify Express Checkouts or Payment "
+"Request Buttons are enabled then logout and sign back in with a valid user."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:263
+msgid "Please accept the terms and conditions first"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:264
+msgid "Please fill in required checkout fields first"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:286
+msgid ""
+"Sorry, we're not accepting prepaid cards at this time. Your credit card has "
+"not been charged. Please try with alternative payment method."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:287
+msgid "We couldn't initiate the payment. Please try again."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:288
+msgid ""
+"We couldn't initiate the payment because your card was declined. Please try "
+"again."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:289
+msgid "Connection canceled or timed out, please try again."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:298
+msgid "Billing First Name and Last Name are required."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:304
+msgid "Communication with the payment gateway timed out. Please try again."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:305
+msgid "Unable to communicate with the payment gateway. Please try again later."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:306
+msgid "Unable to communicate with the reader."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:307
+msgid "Unable to communicate with the API, please try again."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:308
+msgid "Unable to collect payment details."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:309
+msgid "Failed to connect to the selected reader."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:310
+msgid "No available readers found."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:311
+msgid "The selected reader is not online!"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:312
+msgid "Please verify that the reader is correctly setup and online."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:313
+msgid ""
+"Unable to create this order, you will not be able to use this checkout "
+"method."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:315
+msgid ""
+"This cart contains items which require a customer account or customer data.  "
+"PRO Services is required."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:413
+msgid "Return to payments"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:446
+msgid "Add Payment"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:555
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:569
+msgid "Unable to capture the payment."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:611
+msgid ""
+"Sorry, we are unable to process your payment at this time. Please retry "
+"later."
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:644
+#, php-format
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:685
+msgid "customer_name"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:686
+msgid "customer_email"
+msgstr ""
+
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:758
+#: includes/payment-methods/tfsw-gateway-stripe-terminal.php:762
+msgid "We were unable to create a payment request with Stripe"
+msgstr ""
+
+#: includes/tfsw-api.php:254
+msgid "Your API token was invalid."
+msgstr ""
+
+#: includes/tfsw-api.php:259
+msgid "You must provide a valid API token and User ID to access this endpoint."
+msgstr ""
+
+#: includes/tfsw-api.php:278
+msgid "Your API token has expired."
+msgstr ""
+
+#: includes/tfsw-api.php:297
+msgid "Missing required parameters."
+msgstr ""
+
+#: includes/tfsw-api.php:403
+msgid "The WP Admin has not provided a Stripe Connect account id."
+msgstr ""
+
+#: includes/tfsw-api.php:490 includes/tfsw-api.php:498
+msgid "The WP Admin has not published any products."
+msgstr ""
+
+#: includes/tfsw-api.php:549 includes/tfsw-api.php:571
+msgid "We could not find a product with the given product id."
+msgstr ""
+
+#: includes/tfsw-api.php:575
+msgid "The provided product is not a variable product."
+msgstr ""
+
+#: includes/tfsw-api.php:594
+msgid "You must provide a valid user email to search for."
+msgstr ""
+
+#: includes/tfsw-api.php:600
+msgid "There was no user associated with the email address provided."
+msgstr ""
+
+#: includes/tfsw-api.php:657 includes/tfsw-api.php:1014
+#, php-format
+msgid ""
+"The provided variation \"%d\" is not a valid variation of the product \"%d\""
+msgstr ""
+
+#: includes/tfsw-api.php:738 includes/tfsw-api.php:941
+#: includes/tfsw-api.php:1225 includes/tfsw-api.php:1246
+msgid "We could not find an order with the given order id."
+msgstr ""
+
+#: includes/tfsw-api.php:794
+msgid "Customer not found."
+msgstr ""
+
+#: includes/tfsw-api.php:799
+msgid "We could not find orders matching those parameters."
+msgstr ""
+
+#: includes/tfsw-api.php:974
+msgid "Invalid discount code."
+msgstr ""
+
+#: includes/tfsw-api.php:1194
+msgid ""
+"Programmatically added order and subscription from ArcanePOS.  Recurring "
+"payments done with card present may need to be manually entered."
+msgstr ""
+
+#: includes/tfsw-api.php:1251
+msgid ""
+"You must set a shipping address to the order before retrieving shipping "
+"methods."
+msgstr ""
+
+#: includes/tfsw-stripe-terminal-api.php:123
+msgid "There was a problem connecting to the Stripe API endpoint."
+msgstr ""
+
+#: terminal-for-stripe-and-woocommerce.php:81
+#: terminal-for-stripe-and-woocommerce.php:91
+#, php-format
+msgid ""
+"Stripe Terminal requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+
+#: terminal-for-stripe-and-woocommerce.php:83
+#: terminal-for-stripe-and-woocommerce.php:95
+#, php-format
+msgid ""
+"Stripe Termninal requires WooCommerce Stripe to be installed and active, "
+"with at least version 4.2. You can download %s here."
+msgstr ""
+
+#: terminal-for-stripe-and-woocommerce.php:99
+msgid ""
+"Stripe Terminal can not be activated while the pro version of this plugin is "
+"activated."
+msgstr ""
+
+#: terminal-for-stripe-and-woocommerce.php:103
+msgid ""
+"Stripe Terminal can not be activated while the lite version of this plugin "
+"is activated."
+msgstr ""
+
+#: terminal-for-stripe-and-woocommerce.php:270
+msgid "Settings"
+msgstr ""

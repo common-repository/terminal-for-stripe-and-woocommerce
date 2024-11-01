@@ -1,0 +1,24 @@
+09-13-22 2.2.3 Support for WCPOS by Kilbot
+03-30-21 2.2.2 Bug fixes
+03-29-21 2.2.1 Improved tax logic and address data storage
+01-05-21 2.2.0 Support for tips and taxes on mobile application as well as location management debugging, store ID and line item data for payment intents and more
+10-25-19 Initial Release
+11-14-19 UI Upgrades
+12-10-19 Support for shipping, php7.0, and delete via Stripe
+12-12-19 Retries the payment process once an error occurs
+12-19-19 Resolves error handling for the Stripe JS SDK and resolves Pro Services conflicts
+12-20-19 Fixes a retry setting conflit with PRO Services
+01-08-20 Stripe terminal class migrated to a child class to comply with Stripe's requirements
+02-06-20 Adds notification opt-in setting
+02-19-20 Allows payment intents for invalid reader displays
+03-24-20 Includes promotions and discounts for active users
+04-20-20 Adds fingerprint storage.  This is an important update as it makes for easier customer-order synchronization on PRO services
+04-12-21 2.0.0 Support for WP, WC, Stripe Gateways 5.x+, BBPOS Chipper, custom fees, and order IDs.
+05-07-21 2.0.1 Error handling
+06-22-21 2.0.3 Resolving "too many requests" errors and allowing cashier role to use bbpos chipper
+07-12-21 2.0.4 Stripe now requires all readers to have locations and no longer creates a default one for you, so we now do this,
+08-13-21 2.1.0 Support for additional ArcanePOS mobile app features
+10-04-21 2.1.1 Mobile App support for product images and subscriptions plus support for GBP and EUR, mobile checkout button with option and homepage redirect, removed US postcode requirement, copied session handler button to frontend, and support for Gateway 5.6
+10-08-21 2.1.2 Removal of root dependency, resolution of coupon code handling for API, removal of external products from API, Mobile App payment button condition change
+11-08-21 2.1.3 Import existing readers, resolve 404 stylesheet error, allow order-pay for FREE, subscription support language update, checkbox to support "processing" instead of "completed", support for coupon removal, improved support for external POS, and support for multiple subscription quantities.
+12-01-21 2.1.4 Resolve Stripe Gateay 5.8 hiding of settings and inclusion of custom fees as line items in API
